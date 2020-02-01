@@ -1,0 +1,13 @@
+{
+  "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "minter/minter-php-sdk": "^1.4",
+        "vlucas/phpdotenv": "^3.6",
+        "guzzlehttp/guzzle": "~6.0",
+        "nikic/fast-route": "^1.3"
+    }
+}
